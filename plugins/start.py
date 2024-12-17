@@ -194,16 +194,16 @@ async def start_command(client: Client, message: Message):
                     link = await get_shortlink(SHORTLINK_API_URL, SHORTLINK_API_KEY,f'{newLink}')
                     if USE_PAYMENT:
                         btn = [
-                        [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ 🎀", url=link)],
-                        [InlineKeyboardButton('ᴅᴏᴡɴʟᴏᴀᴅ ᴛᴜᴛᴏʀɪᴀʟ 🎥', url=TUT_VID)],
+                        [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ 🌚", url=link)],
+                        [InlineKeyboardButton('ᴛᴜᴛᴏʀɪᴀʟ 🎥', url=TUT_VID)],
                         [InlineKeyboardButton("ɢᴇᴛ ᴘʀᴇᴍɪᴜᴍ 💸", callback_data="buy_prem")]
                         ]
                     else:
                         btn = [
-                        [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ 🎀", url=link)],
-                        [InlineKeyboardButton('ᴅᴏᴡɴʟᴏᴀᴅ ᴛᴜᴛᴏʀɪᴀʟ 🎥', url=TUT_VID)]
+                        [InlineKeyboardButton("ᴅᴏᴡɴʟᴏᴀᴅ 🌚", url=link)],
+                        [InlineKeyboardButton('ᴛᴜᴛᴏʀɪᴀʟ 🎥', url=TUT_VID)]
                         ]
-                    await message.reply(f"ʜᴇʟʟᴏ ᴛʜᴇʀᴇ!\n\nᴛᴏ ɢᴇᴛ ᴛʜᴇ ꜰɪʟᴇꜱ ᴛʜᴀᴛ ʏᴏᴜ'ʀᴇ ʟᴏᴏᴋɪɴɢ ꜰᴏʀ, ʜɪᴛ ᴛʜᴇ 'ᴅᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ' ʙᴜᴛᴛᴏɴ.\nɪꜰ ʏᴏᴜ ᴅᴏɴ'ᴛ ᴋɴᴏᴡ ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜᴇ ꜰɪʟᴇꜱ, ʜɪᴛ ᴛʜᴇ 'ᴅᴏᴡɴʟᴏᴀᴅ ᴛᴜᴛᴏʀɪᴀʟ' ʙᴜᴛᴛᴏɴ.\n\n<blockquote>ᴛɪʟʟ ɴᴏᴡ, {clicks} ᴜꜱᴇʀꜱ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ᴛʜᴇ ꜰɪʟᴇ(ꜱ) ᴀʟʀᴇᴀᴅʏ!</blockquote>\n\nɢᴏ ᴀʜᴇᴀᴅ ᴀɴᴅ ʟɪᴠᴇ ʏᴏᴜʀ ᴅʀᴇᴀᴍꜱ ʙᴜᴅᴅʏ!", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
+                    await message.reply(f"ɢᴏ ᴛʜʀᴏᴜɢʜ ᴛʜᴇ ᴀᴅꜱ ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ꜰᴀᴠᴏʀɪᴛᴇ ɪᴛᴇᴍꜱ 🥵💦\n\n<blockquote>ᴜꜱᴇʀꜱ ᴅᴏᴡɴʟᴏᴀᴅᴇᴅ ᴛʜɪꜱ ᴠɪᴅᴇᴏ {clicks} ᴛɪᴍᴇꜱ.</blockquote>\n\nɢᴏᴏᴅ ʟᴜᴄᴋ, ᴅᴀᴅᴅʏ! 🫦🔥", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
                     return
     
     for i in range(1):
@@ -218,9 +218,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("💝 ꜱᴜʙꜱᴄʀɪʙᴇ ᴏᴜʀ ʏᴏᴜᴛᴜʙᴇ", url='youtube.com/@pagesandvoices')
-                ],[
-                    InlineKeyboardButton("🍿 ᴇɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ", url='https://t.me/cinemas_robot'),
+                    InlineKeyboardButton("🍿 ꜱᴜᴘᴘᴏʀᴛ", url='https://t.me/cultured_starsbot'),
                     InlineKeyboardButton("😊 ᴀʙᴏᴜᴛ ᴍᴇ", callback_data="about")
                 ],[
                     InlineKeyboardButton("🔒 ᴄʟᴏꜱᴇ", callback_data="close")
