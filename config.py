@@ -11,10 +11,10 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 #force user to join your backup channel leave 0 if you don't need.
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
-FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", ""))
-FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", ""))
-FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", ""))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001993667849"))
+FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "-1002362795769"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "-1002417720684"))
+FORCE_SUB_CHANNEL4 = int(os.environ.get("FORCE_SUB_CHANNEL4", "-1002425739349"))
 
 
 #bot stats
@@ -23,7 +23,7 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}"
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "<blockquote>ᴅᴏɴ'ᴛ ᴛᴇxᴛ ᴍᴇ ᴅᴀᴅᴅʏ! 😧</blockquote>\n\nᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴀᴅᴍɪɴꜱ ᴏʀ ᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ, ᴛᴇxᴛ ᴏɴ @Cultured_starsbot")
 
 #your bot token here from https://telegram.me/BotFather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7584975245:AAFRN30S8AAWzWjr5HVYmij8ll8-ODfToE4") 
 #your api id from https://my.telegram.org/apps
 APP_ID = int(os.environ.get("APP_ID", "21145186"))
 #your api hash from https://my.telegram.org/apps
