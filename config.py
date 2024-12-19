@@ -23,7 +23,7 @@ BOT_STATS_TEXT = os.environ.get("BOTS_STATS_TEXT","<b>BOT UPTIME </b>\n{uptime}"
 USER_REPLY_TEXT = os.environ.get("USER_REPLY_TEXT", "<blockquote>ᴅᴏɴ'ᴛ ᴛᴇxᴛ ᴍᴇ ᴅᴀᴅᴅʏ! 😧</blockquote>\n\nᴛᴏ ᴄᴏɴᴛᴀᴄᴛ ᴛʜᴇ ᴀᴅᴍɪɴꜱ ᴏʀ ᴘᴜʀᴄʜᴀꜱᴇ ᴘʀᴇᴍɪᴜᴍ, ᴛᴇxᴛ ᴏɴ @Cultured_starsbot")
 
 #your bot token here from https://telegram.me/BotFather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7584975245:AAFxtcT_dW9vA29qvwwO_cwOqOXgI6qJLwM") 
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "") 
 #your api id from https://my.telegram.org/apps
 APP_ID = int(os.environ.get("APP_ID", "21145186"))
 #your api hash from https://my.telegram.org/apps
