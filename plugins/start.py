@@ -257,7 +257,7 @@ async def start_command(client: Client, message: Message):
                 [InlineKeyboardButton("ᴠᴇʀɪꜰʏ 🎀", url=link)],
                 [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ 🥲', url=TUT_VID)]
                 ]
-            await message.reply(f"ʏᴏᴜʀ ᴛᴏᴋᴇɴ ʜᴀꜱ ᴇxᴘɪʀᴇᴅ! ❌❌\n\n<b><u>ɴᴏᴛᴇ:</b></u> ᴛᴏ ɪᴍᴘʀᴏᴠᴇ ᴛʜᴇ ʙᴏᴛ'ꜱ ᴇꜰꜰɪᴄɪᴇɴᴄʏ, ᴏɴʟʏ ᴠᴇʀɪꜰɪᴇᴅ ᴜꜱᴇʀꜱ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ꜰɪʟᴇꜱ. ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ɪꜱ ʀᴇQᴜɪʀᴇᴅ <u>ᴏɴᴄᴇ ᴇᴠᴇʀʏ 12 ʜᴏᴜʀꜱ</u> ꜰᴏʀ ᴜɴɪɴᴛᴇʀʀᴜᴘᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴀʟʟ ɪɴꜰᴏʜᴜʙ ɴᴇᴛᴡᴏʀᴋꜱ ʟɪɴᴋꜱ.\n\nᴄʟɪᴄᴋ ᴛʜᴇ 'ᴠᴇʀɪꜰʏ' ʙᴜᴛᴛᴏɴ ᴛᴏ ꜱᴛᴀʀᴛ ᴛʜᴇ ᴘʀᴏᴄᴇꜱꜱ. ɪꜰ ʏᴏᴜ'ʀᴇ ᴜɴꜱᴜʀᴇ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ, ᴄʟɪᴄᴋ 'ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ' ʙᴜᴛᴛᴏɴ ꜰᴏʀ ᴀ ᴅᴇᴛᴀɪʟᴇᴅ ᴠɪᴅᴇᴏ ɢᴜɪᴅᴇ.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
+            await message.reply(f"ʏᴏᴜʀ ᴛᴏᴋᴇɴ ʜᴀꜱ ᴇxᴘɪʀᴇᴅ! ❌❌\n\n<b><u>ɴᴏᴛᴇ:</b></u> ᴛᴏ ɪᴍᴘʀᴏᴠᴇ ᴛʜᴇ ʙᴏᴛ'ꜱ ᴇꜰꜰɪᴄɪᴇɴᴄʏ, ᴏɴʟʏ ᴠᴇʀɪꜰɪᴇᴅ ᴜꜱᴇʀꜱ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ꜰɪʟᴇꜱ. ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ɪꜱ ʀᴇQᴜɪʀᴇᴅ <u>ᴏɴᴄᴇ ᴇᴠᴇʀʏ 12 ʜᴏᴜʀꜱ</u> ꜰᴏʀ ᴜɴɪɴᴛᴇʀʀᴜᴘᴛᴇᴅ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴀʟʟ ʟɪɴᴋꜱ.\n\nᴄʟɪᴄᴋ ᴛʜᴇ 'ᴠᴇʀɪꜰʏ' ʙᴜᴛᴛᴏɴ ᴛᴏ ꜱᴛᴀʀᴛ ᴛʜᴇ ᴘʀᴏᴄᴇꜱꜱ. ɪꜰ ʏᴏᴜ'ʀᴇ ᴜɴꜱᴜʀᴇ ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ, ᴄʟɪᴄᴋ 'ʜᴏᴡ ᴛᴏ ᴠᴇʀɪꜰʏ' ʙᴜᴛᴛᴏɴ ꜰᴏʀ ᴀ ᴅᴇᴛᴀɪʟᴇᴅ ᴠɪᴅᴇᴏ ɢᴜɪᴅᴇ.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
             return
     return
 
